@@ -1,0 +1,48 @@
+body {
+  font-family: "Dancing Script", cursive;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+.user-name {
+  color: orange;
+}
+
+img {
+  height: 500px;
+  width: 500px;
+}
+
+section {
+  display: flex;
+}
+
+.half-width {
+  width: 50%;
+  padding-left: 10%;
+}
+
+.half-width img {
+  width: 70%;
+}
+
+.link-button {
+  border-radius: 10px;
+  padding: 10px 40px;
+  margin: 10px 0 0 0;
+  background-image: linear-gradient(orange, tomato);
+  color: aquamarine;
+  text-decoration: none;
+}
+
+.top-banner {
+  background-image: url(assets/images/top-banner.png);
+  background-repeat: no-repeat;
+}
