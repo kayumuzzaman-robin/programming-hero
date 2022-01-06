@@ -1,0 +1,139 @@
+body {
+  font-family: "Poppins", sans-serif;
+  /* margin-left: 85px; */
+}
+.center {
+  margin-left: 90px;
+}
+h1 {
+  font-size: 50px;
+  line-height: 30px;
+  font-weight: 900;
+}
+h2 {
+  font-size: 40px;
+  line-height: 20px;
+  font-weight: 900;
+}
+h3 {
+  font-weight: 900;
+}
+.size-hr {
+  border: 2px solid;
+  width: 33%;
+  color: #7460e24b;
+}
+.text-center {
+  text-align: center;
+}
+.purple-color {
+  color: #800080a9;
+}
+.slate-purple {
+  color: #9470db;
+}
+.light-color-1 {
+  color: #e27d60;
+}
+.light-color-2 {
+  color: #7cdbe88a;
+}
+.light-color-3 {
+  color: #7c175ed7;
+}
+.light-color-4 {
+  color: #7c8ce859;
+}
+.flex-container {
+  display: flex;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  padding: 2%;
+}
+.first-section {
+  margin-top: 40px;
+}
+#side-line {
+  border-left: 5px solid goldenrod;
+  border-radius: 2px;
+  padding-left: 15px;
+}
+#top-space {
+  margin-top: 40px;
+}
+.half-width {
+  width: 50%;
+  padding: 0px;
+}
+.half-width h3 {
+  margin-right: 100px;
+  margin-bottom: 25px;
+}
+.half-width h4 {
+  margin-right: 300px;
+}
+.half-width p {
+  margin-bottom: 25px;
+}
+.half-width img {
+  width: 80%;
+}
+.link-button {
+  text-decoration: none;
+  padding: 12px 40px;
+  background-image: linear-gradient(to right, #ffffff4f, #ff0000);
+  border-radius: 10px;
+  color: aliceblue;
+}
+.missions {
+  margin-left: 80px;
+  height: 350px;
+  width: 1500px;
+}
+#mission {
+  background-color: #4f9da627;
+  border-radius: 10px;
+  margin-right: 20px;
+  padding: 20px;
+}
+#mission img {
+  width: 30%;
+}
+#vision {
+  background-color: #ff595915;
+  border-radius: 10px;
+  margin-right: 20px;
+  padding: 20px;
+}
+#vision img {
+  width: 30%;
+}
+#goals {
+  background-color: #93a64f27;
+  border-radius: 10px;
+  margin-right: 20px;
+  padding: 0px 20px;
+}
+#goals img {
+  width: 30%;
+}
+.image-resize {
+  width: 40%;
+}
+#project-data img {
+  margin-left: 50px;
+}
+#moon-place img {
+  width: 80%;
+  border-radius: 10px;
+}
+footer {
+  background-color: black;
+}
+.footer-padding {
+  padding: 2px;
+}
+.footer-padding h4 {
+  color: #e6d8d8a4;
+  text-align: center;
+}
