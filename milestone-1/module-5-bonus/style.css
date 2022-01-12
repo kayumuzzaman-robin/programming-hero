@@ -1,0 +1,22 @@
+ul:hover {
+  border: 2px solid;
+  border-image: linear-gradient(to right, red, tomato);
+  border-radius: 10px;
+  border-image-slice: 1;
+}
+.name:focus {
+  color: blueviolet;
+  font-weight: 900;
+}
+li:first-child {
+  color: brown;
+}
+li:last-child {
+  color: yellowgreen;
+}
+li:nth-child(2n) {
+  color: gray;
+}
+li::before {
+  counter-increment: 0;
+}

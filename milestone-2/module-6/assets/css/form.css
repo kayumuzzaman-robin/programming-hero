@@ -1,0 +1,9 @@
+input {
+  color: peru;
+}
+
+legend {
+  background-color: #000;
+  color: #fff;
+  padding: 3px 6px;
+}

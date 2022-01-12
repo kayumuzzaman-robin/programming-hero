@@ -1,0 +1,36 @@
+li a {
+  text-decoration: none;
+  color: yellowgreen;
+  font-size: 30px;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0px 15px;
+  margin-right: 10px;
+}
+
+nav > ul {
+  display: flex;
+  float: right;
+  margin: 50px;
+}
+
+li:hover {
+  background-color: lightgray;
+  border: 2px solid gray;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  padding: 0;
+}
+
+.dropdown li {
+  padding: 0px 10px;
+}
+
+.dropdown-show:hover > ul {
+  display: block;
+}
