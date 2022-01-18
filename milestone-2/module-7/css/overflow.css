@@ -1,0 +1,22 @@
+.mega-box,
+.mango-people {
+  width: 500px;
+  height: 500px;
+  border: 5px solid steelblue;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.mini-text {
+  width: 100px;
+  height: auto;
+  border: 5px solid bisque;
+  overflow: hidden;
+}
+
+.short {
+  /* didn't wrap the word to a new line */
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

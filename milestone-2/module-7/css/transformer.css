@@ -1,0 +1,13 @@
+.container,
+.inner {
+  height: 200px;
+  width: 200px;
+  border: 2px solid lightcoral;
+}
+.container {
+  background-color: darkgoldenrod;
+}
+.inner {
+  background-color: darkolivegreen;
+  transform: scale(0.5) rotate(45deg) translateX(50px);
+}

@@ -1,0 +1,49 @@
+h3,
+p {
+  text-align: center;
+  color: rgba(250, 235, 215, 0.514);
+}
+.photo-frame {
+  width: 300px;
+  height: 168px;
+  border: 2px solid goldenrod;
+  border-radius: 10px;
+  position: relative;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.photo img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.photo-detail {
+  position: absolute;
+  width: 300px;
+  height: 168px;
+  top: 0px;
+  visibility: hidden;
+}
+
+.photo-frame:hover .photo-detail {
+  visibility: visible;
+  background-color: #7788996b;
+}
+
+.photo-detail h3 {
+  background-color: rgba(0, 0, 0, 0.212);
+}
+
+.photo-album {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo-frame:hover .photo {
+  transform: scale(1.5) rotate(360deg);
+  transition: transform 2s ease-in-out;
+}
+
+.photo {
+}

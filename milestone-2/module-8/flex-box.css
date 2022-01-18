@@ -1,0 +1,23 @@
+.container {
+  height: 500px;
+  display: flex;
+  border: 2px solid darkcyan;
+  justify-content: space-around;
+  align-items: center;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  border: 2px solid peru;
+  font-size: 2em;
+}
+#box-3 {
+  order: 1;
+  flex-grow: 1;
+}
+#box-1 {
+  order: 2;
+}
+#box-2 {
+  order: 3;
+}
